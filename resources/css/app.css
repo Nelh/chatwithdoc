@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
+
+
+/* Floating menu */
+.floating-menu {
+    display: flex;
+    background-color: blue;
+    padding: 0.1rem;
+    border-radius: 0.5rem;
+}
+
+.floating-menu button {
+    background-color: unset;
+    padding: 0.275rem 0.425rem;
+    border-radius: 0.3rem;
+}
+
+.fi-ta-record {
+    background-color: red !important;
+}
+
+.fi-ta-record input {
+    position: absolute;
+}
+
+#toolbarContainer{
+    display: none;
+}
